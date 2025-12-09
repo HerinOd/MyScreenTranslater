@@ -9,7 +9,8 @@ import java.util.concurrent.TimeUnit;
 
 public class GeminiTranslator {
 
-    private static final String API_KEY = "AIzaSyA9vke0K2bImY_iY0hSMFWGx4PnT-9705Y";
+    //TODO: Change API_KEY
+    private static final String API_KEY = " ";
     private static final String API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=" + API_KEY;
 
     private static final OkHttpClient client = new OkHttpClient.Builder()
